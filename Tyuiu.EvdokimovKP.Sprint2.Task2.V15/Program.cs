@@ -12,8 +12,10 @@ x = Convert.ToInt32(Console.ReadLine());
 int y;
 Console.WriteLine("Введите значение Y");
 y = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine(ds.CheckDotInShadedArea(x, y));
+if (ds.CheckDotInShadedArea(x, y))
+    Console.WriteLine("Точка закрашена");
+else
+    Console.WriteLine("Точка НЕ закрашена");
 
 
 
