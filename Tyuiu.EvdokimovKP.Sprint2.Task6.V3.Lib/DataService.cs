@@ -8,13 +8,13 @@ namespace Tyuiu.EvdokimovKP.Sprint2.Task6.V3.Lib
         {
             switch (value)
             {
-                case 1: return "Понедельник";
-                case 2: return "Вторник";
-                case 3: return "Среда";
-                case 4: return "Четверг";
-                case 5: return "Пятница";
-                case 6: return "Суббота";
-                case 7: return "Восресенье";
+                case 1: return "понедельник";
+                case 2: return "вторник";
+                case 3: return "среда";
+                case 4: return "четверг";
+                case 5: return "пятница";
+                case 6: return "суббота";
+                case 7: return "восресенье";
                 default: throw new ArgumentException($"Некоректный день недели. Значене {value}"); ;
             }
         }
